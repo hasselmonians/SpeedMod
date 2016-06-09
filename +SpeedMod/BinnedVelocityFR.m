@@ -1,4 +1,4 @@
-function [f_cell, vel_dim] = BinnedVelocity(self, cel, vel_dim)
+function [f_cell, vel_dim] = BinnedVelocityFR(self, cel, vel_dim)
 % Calculates the rate of firing for cell cel, for bins of running speed.
 %
 % If vel_dim is specified, bin edges of running speed are vel_dim
