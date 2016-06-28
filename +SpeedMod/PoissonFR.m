@@ -69,32 +69,6 @@ function [ stats ] = PoissonFR(root, plotit)
 %       rho_linear - Correlation coefficient between the binned rate and
 %           the binned speed
 %       speed_dim - The speed bins
-%   
-% Copyright (c) 2015 Trustees of Boston University
-% 
-% This file is part of mle_rhythmicity.
-% 
-% This version of mle_rhythmicity is solely for the purposes of review and 
-% demonstration of its functionality by the editors and reviewers assigned 
-% by Neuron (Elsevier Inc.). Redistribution to others and other uses in 
-% source and binary forms, with or without modification, is prohibited. 
-% Upon publication, the associated paper will include a different link 
-% from which the code will be permanently available, distributed under 
-% the open-source BSD license (Available at 
-% http://opensource.org/licenses/bsd-license.php) allowing future users to 
-% freely distribute and modify the code.
-% 
-% THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS 
-% IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-% THE IMPLIED WARRANOnly frameTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
-% PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR 
-% CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
-% EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
-% PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
-% PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
-% LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
-% NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
-% SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.   
 
 %% Parse input
 
